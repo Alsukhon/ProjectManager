@@ -1,4 +1,4 @@
-import python-upwork
+from upwork import client
 
 #Instantiating a client without an auth token
 client = upwork.Client(public_key, secret_key)
